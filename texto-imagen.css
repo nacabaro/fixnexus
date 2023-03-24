@@ -1,0 +1,17 @@
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+	width: 400px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 5px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+	transition: transform 0.3s ease-in-out;
+}
+
+.image-element {
+  padding: 5vh;
+}
